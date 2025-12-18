@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:myql//localhost-3306/chatMessages?createDatabaseIfNotExist = true
+    url: jdbc:mysql//localhost-3306/chatMessages?createDatabaseIfNotExist = true
     username: root
     password: 1234
 
