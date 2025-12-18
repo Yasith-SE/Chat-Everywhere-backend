@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:myql//localhost-3306/chatMessages?createDatabaseIfNotExist = true
+    username: root
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
